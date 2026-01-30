@@ -5,7 +5,7 @@ title: course homepage
 ---
 ## 导航
 
-- [[syllabus]]
+- [[教学大纲]]
 - [[schedule]]
-- [[lectures|讲义]] 
+- [[lectures]] 
 - [[assignments]]
