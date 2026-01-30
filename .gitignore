@@ -1,0 +1,10 @@
+_site
+.jekyll-cache
+pages/.DS_Store
+pages/tags.md
+_notes/.obsidian
+_notes/Public/.obsidian
+.obsidian
+.DS_Store
+/assets/.DS_Store
+/.DS_Store
