@@ -17,6 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 excerpt: "{{ note.content | strip_html | normalize_whitespace | truncatewords: 20 | escape }}"
             }{%- unless forloop.last -%},{%- endunless -%}
         {%- endfor -%}
+        {%- if site.lectures.size > 0 and site.pages.size > 0 -%},{%- endif -%}
+        {%- for page in site.pages -%}
+            {
+                title: "{{ page.title | escape }}",
+                url: "{{ site.baseurl }}{{ page.url }}",
+                excerpt: "{{ page.content | strip_html | normalize_whitespace | truncatewords: 20 | escape }}"
+            }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
     ];
 
     const availableImages = [
