@@ -1,11 +1,11 @@
 ---
 layout: Post
 permalink: /
-title: course homepage
+title: 主页
 ---
 ## 导航
 
-- [教学大纲](/syllabus)
-- [[schedule]]
-- [[lectures]] 
-- [[assignments]]
+- [[教学大纲]]
+- [[日程]]
+- [[讲义]] 
+- [[作业]]
