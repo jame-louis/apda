@@ -35,11 +35,11 @@ preferences:
     enabled: true
 
 # Site Configuration
-title: "obsidian website"
+title: "安卓程序设计与应用"
 heading: "佚名"
-description: "obsidian for note-taking, and jekyll for publishing."
+description: "安卓程序设计与应用课程的网站"
 url: ""
-baseurl: "/obsidian-website"
+baseurl: "/apda"
 
 # Asset Configuration
 apple_touch_icon: "/assets/img/profile.png"
@@ -48,16 +48,18 @@ ie_css: "/assets/css/ie-target.css"
 
 # Menu Items
 menu:
-  - title: "Notes"
-    url: "/notes"
-  - title: "Blog"
-    url: "/blog"
-  - title: "About"
-    url: "/about"
+  - title: "大纲"
+    url: "/syllabus"
+  - title: "日程"
+    url: "/schedule"
+  - title: "讲义"
+    url: "/lectures"
+  - title: "作业"
+    url: "/assignments"
 
 # Footer
 footer:
-  copyright: "© 2024 Your Name. Contents under CC-BY-NC"
+  copyright: "© 2024 Jame Louis. Contents under CC-BY-NC"
   credits:
     enabled: true
     url: "/credits"
@@ -65,9 +67,12 @@ footer:
 
 # Collections
 collections:
-  notes:
+  lectures:
     output: true
-    permalink: /:collection/:name
+    permalink: /lectures/:name
+  assignments:
+    output: true
+    permalink: /assignments/:name
 
 # Defaults
 defaults:
