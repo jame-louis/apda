@@ -19,11 +19,13 @@ document.addEventListener('DOMContentLoaded', function() {
         {%- endfor -%}
         {%- if site.lectures.size > 0 and site.pages.size > 0 -%},{%- endif -%}
         {%- for page in site.pages -%}
-            {
-                title: "{{ page.title | escape }}",
-                url: "{{ site.baseurl }}{{ page.url }}",
-                excerpt: "{{ page.content | strip_html | normalize_whitespace | truncatewords: 20 | escape }}"
-            }{%- unless forloop.last -%},{%- endunless -%}
+            {%- if page.content-type == "static" %}
+                {
+                    title: "{{ page.title | escape }}",
+                    url: "{{ site.baseurl }}{{ page.url }}",
+                    excerpt: "{{ page.content | strip_html | normalize_whitespace | truncatewords: 20 | escape }}"
+                }{%- unless forloop.last -%},{%- endunless -%}
+            {%- endif -%}
         {%- endfor -%}
     ];
 
