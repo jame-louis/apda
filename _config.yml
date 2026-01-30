@@ -66,6 +66,7 @@ footer:
     text: "Credits"
 
 # Collections
+collections_dir: _collections
 collections:
   lectures:
     output: true
