@@ -18,9 +18,9 @@ title: course homepage
 
 ### 教材及教学参考资料
 
-- 《Android Studio应用程序设计（第3版）》
-- 《Android 2.3应用开发实战》
-- 《Java语言程序设计》
+- 张思民.[《Android Studio应用程序设计（第3版）》](https://book.douban.com/subject/36411102/).清华大学出版社.2023.05
+- 林城.[《Android 2.3应用开发实战》](https://book.douban.com/subject/6429643/).机械工业出版社.2011.01
+- 张思民.[《Java语言程序设计》](https://book.douban.com/subject/2022793/).清华大学出版社.2016.01
 
 ### 先修条件
 
