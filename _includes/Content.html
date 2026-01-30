@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             link.className = 'file-link';
                             linkSpan.appendChild(link);
                         } else {
-                            const foundNote = findNoteByTitle(linkText);
+                            const foundNote = findNoteByTitle(targetText);
                             const link = document.createElement('a');
                             
                             if (foundNote) {
