@@ -1,5 +1,5 @@
 ---
-title: 第2讲 程序应用结构
+title: lecture02
 show: true
 date: 2025-09-10
 ---
@@ -8,6 +8,6 @@ date: 2025-09-10
 [[assignment01]]
 
 
-[[screen-shot.png]]
-[[lecture0.pdf]]
-[[lecture0.zip]]
+- ![[screen-shot.png]]
+- [[lecture0.pdf]]
+- [[lecture0.zip]]

@@ -1,4 +1,4 @@
 ---
-title: 作业1 - 图片浏览器
+title: assignment01
 date: 2025-10-01
 ---
