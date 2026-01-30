@@ -79,19 +79,18 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "notes"
+      type: "lectures"
     values:
       layout: "Post"
-      content-type: "notes"
+      content-type: "lectures"
       feed: "show"
   - scope:
       path: ""
-      type: "posts"
+      type: "assignments"
     values:
       layout: "Post"
       content-type: "post"
       feed: "show"
-      permalink: /blog/:title/
 
 # Plugins
 plugins:
