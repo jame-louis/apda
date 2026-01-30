@@ -3,4 +3,4 @@ title: 第1讲 安卓系统及其开发过程
 show: true
 date: 2025-09-08
 ---
-[[lecture02|下一讲]]
+[[lecture02]]
