@@ -85,6 +85,12 @@
                 {%- endif -%}
             {%- endif -%}
 
+            {%- if page.permalink == "/assignments" -%}
+                <h1>{{page.title}}</h1>
+                {%- include Content.html -%}
+                {%- include Search.html -%}
+                {%- include Feed.html -%}
+            {%- endif -%}
              <!--- Post Layout-->
              {%- if page.content-type == "assignments"  -%}
                  <h1>{{page.title}}</h1>
