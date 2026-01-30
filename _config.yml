@@ -89,7 +89,7 @@ defaults:
       type: "assignments"
     values:
       layout: "Post"
-      content-type: "post"
+      content-type: "assignments"
       feed: "show"
 
 # Plugins
