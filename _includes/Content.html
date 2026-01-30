@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Process wiki links in this text node
             const text = node.textContent;
-            const wikiLinkRegex = /!?\[\[([^\]]+)\]\]/g;
+            const wikiLinkRegex = /!?\[\[([^\|\]]+)(?:\s*\|\s*([^\]]+))?\]\]/g;
             let match;
             let lastIndex = 0;
             const fragments = [];
@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             
                             if (foundNote) {
                                 link.href = foundNote.url;
-                                link.textContent = linkText;
+                                link.textContent = label || targetText;
                                 link.className = 'wiki-link';
                                 
                                 link.addEventListener('mouseenter', function() {
@@ -215,9 +215,9 @@ document.addEventListener('DOMContentLoaded', function() {
                                 });
                             } else {
                                 link.href = 'javascript:void(0)';
-                                link.textContent = linkText;
+                                link.textContent = label || targetText;
                                 link.className = 'stale-link';
-                                link.title = 'Note not found: ' + linkText;
+                                link.title = 'Note not found: ' + targetText;
                             }
                             
                             linkSpan.appendChild(link);
