@@ -1,5 +1,5 @@
 ---
-title: 第2周讲义：Kotlin 编程基础
+title: 第2讲义：Kotlin 编程基础
 show: true
 date: 2025-09-25
 permalink: /lectures/lecture02

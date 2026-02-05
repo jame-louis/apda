@@ -1,7 +1,7 @@
 ---
-title: 第3周讲义：UI基础 - Views与布局
+title: 第3讲义：UI基础 - Views与布局
 show: true
-date: 2025-09-10
+date: 2025-09-30
 permalink: /lectures/lecture03
 ---
 
